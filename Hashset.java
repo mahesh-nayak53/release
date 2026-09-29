@@ -8,7 +8,7 @@ public class Hashset {
         for(char x : str.toCharArray()){
             h.add(x);
         }
-
+        System.out.println("it will store unique values ");
         System.out.println(h);;
     }
 }
