@@ -10,6 +10,7 @@ public class Hashmap{
             h.put(x, h.getOrDefault(x, 0)+1);
         }
         
+        System.out.println("it will store in pairs");
         System.out.print(h);
     }
 }
